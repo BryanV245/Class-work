@@ -1,5 +1,5 @@
 # Class-work
-![Photo on 9-9-23 at 9 56 PM](https://github.com/BryanV245/Class-work/assets/144383665/fd572c20-f24b-4a11-a3c2-deb09aa3bd23)
+![Photo on 9-9-23 at 9 56 PM](https://github.com/BryanV245/Class-work/assets/144383665/daad9b51-e4a6-4b31-9208-76f9163e030f)
 
 
 Hi, my name is Bryan Vasquez and i've been coding for about 4 years now .I have an associates degree from westchester community college and My work has mainly been on small projects in python, c++, and java. The largest project ive done has been a racecar garage simulator in java, which stored all the user information and cars manufactored in the last 15 years in a mySQL database. The front end was written in javaFX. One of the most important classses ive taken so far was Data Structures. That class did not only teach me about containers and pointers etc, it taught me how to think like a programmer. It taught ne how to analyze a problem, and address it in an articulate manor. 
