@@ -13,7 +13,7 @@
 <body>
     
 
-    <div class="container">
+  <div class="container" id="app">
     <h1 class = "title">A special page</h1>
     <h2 class = "subtitle">A very special page</h2>
 
@@ -97,19 +97,39 @@
                 </a>
               </article>
             
-        </div>
-        <div class="column">
-            <article class="message is-primary">
-                <div class="message-header">
-                  <p>Primary</p>
-                  <button class="delete" aria-label="delete"></button>
-                </div>
-                <div class="message-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-                </div>
-              </article>
-           
-
-        </div>
-</body>
-</html>
+            </div>
+            <div class="column">
+              <div class="notification is-light" :class="x.type"  v-for="x in list" v-show="x.open">
+                  <button class="delete" @click="x.open = false" ></button>
+                  {{ x.msg }}
+              </div>
+                
+          </div>
+      </div>
+      </div>
+      <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+      <script>
+        
+        const { createApp, ref } = Vue
+  
+  
+        const app = createApp({
+          setup() {
+            const list = ref([
+              { msg: 'Hello World', open: true, type: 'is-success' },
+              { msg: 'Congrats! You did it', open: true, type: 'is-warning' },
+              { msg: 'You are a Vue3 master', open: true, type: 'is-info' },
+              { msg: 'Oop! You did it again', open: true, type: 'is-danger'},
+            ]);
+            
+            //open.value = false;
+  
+            return { list }
+          }
+        })
+        
+        app.mount('#app')
+  
+      </script>
+  </body>
+  </html>
