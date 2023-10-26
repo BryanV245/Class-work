@@ -1,18 +1,19 @@
 {
-    "Name": "CLASS-work",
-    "version": "1.0.0",
-    "description": "",
-    "author": "",
-    "license": "ISC",
+  "name": "fall-2023",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
 
-    "scripts": {
-        "start": "node server/index.js",
-        "dev": "nodemon --watch ./server server/index.js"
-    },
-    "dependencies": {
-        "express": "^4.10.2"
-    },
-    "devDependencies": {
-        "nodemon": "^3.0.1"
-    }
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon --watch ./server server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+
 }

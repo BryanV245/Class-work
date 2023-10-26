@@ -1,17 +1,18 @@
-const express= require('express');
+// express.js
+
+const express = require('express');
 const app = express();
 
 const PORT = 3000;
 
-app.get('/', (req,res) => {
-    res.end('Hello World\n');
+app.get('/', (req, res) => {
+    res.send('Hello World!');
 });
 
-    console.log('1: server is running...');
+console.log('1: Trying to start server...');
+
 app.listen(PORT, () => {
-    console.log('2: server is running at http://localhost:${PORT}');
+    console.log(`2: Server is running at http://localhost:${PORT}`);
 });
 
-console.log('3: END OF FILE');
-
-
+console.log('3: End of file, waiting for requests...');

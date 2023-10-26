@@ -1,7 +1,16 @@
 body {
-    background-color: rgb(196, 212, 244);
+    background-color: aliceblue;
     height: 100vh;
 }
-.container{
-    background-color: white;
+
+.container {
+    height: 100vh;
 }
+
+.columns {
+    background-color: white; 
+}
+
+
+
+
