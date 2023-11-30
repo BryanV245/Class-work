@@ -60,4 +60,4 @@ const cart = getCart();
   width: 100px;
   margin-right: .5rem;
 }
-</style>@/model/shoppingCart
+</style>
