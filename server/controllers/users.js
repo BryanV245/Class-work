@@ -1,4 +1,4 @@
-
+// @ts-check
 
 const express = require('express');
 const { getAll, get, search, create, update, remove, login, register } = require('../models/users');

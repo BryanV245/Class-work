@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import { RouterLink } from 'vue-router';
 import LoginBadge from './LoginBadge.vue';
 import FlyoutPanel from './FlyoutPanel.vue';
-import ShoppingCart from './shoppingCart.vue';
+import ShoppingCart from './ShoppingCart.vue';
 import { count as cartCount } from "@/model/shoppingCart";
 
 const isActive = ref(false);

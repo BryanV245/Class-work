@@ -1,1 +1,1 @@
-VITE_API_ROOT=http://localhost:3000/api/v1
+/// <reference types="vite/client" />

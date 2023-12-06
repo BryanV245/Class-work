@@ -1,3 +1,4 @@
+
 const express = require('express');
 const { getAll, get, search, create, update, remove, seed } = require('../models/products');
 const router = express.Router();
